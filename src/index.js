@@ -14,13 +14,16 @@ PORT = process.env.PORT || 3000;
 
 
 
-app.post("/bfhl", async(req, res) => {
+app.post("/bfhldevapigw.healthrx.co.in/bfl-api-challenge/challenge-entry", async(req, res) => {
     try {
         const response = {
             "is_success": true,
-            "user_id": "Harshjay_Gupta_18122001",
-            "email": "harshjaygupta3621@gmail.com",
-            "roll_number": "0832CS191071",
+            "b_name": "TWFkaGF2IFNoYXJtYQ==",
+            "name": "Madhav Sharma",
+            "b_reg_no": "MDgzMkNTMTkxMDk1",
+            "reg_no": "0832CS191071",
+            "b_email": "bWFkaGF2LjEwMjAuc2hhcm1hQGdtYWlsLmNvbQ==",
+            "email": "madhav.1020.sharma@gmail.com",
             "numbers": [],
             "alphabets": []
         }
